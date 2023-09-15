@@ -1,0 +1,22 @@
+
+jruby -e "puts 'This is a short program' "
+- E option to the interpretor will run the program.
+
+ 
+jirb
+- This is the interactive shell
+
+jruby example_1.rb
+- This will run the script in command line. 
+
+jruby -S gem install rspec
+- This will install ruby gems made for jruby.
+
+jrubyc example_1.rb
+- This will compile our program into a class example.
+
+java -cp .:/usr/share/jruby/lib/jruby.jar example1
+- This relies on the class file rendered earlier.
+- If you referene some ruby_library.rb you have to compile that extra file manually to ship along side the class. 
+
+
