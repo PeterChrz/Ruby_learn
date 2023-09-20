@@ -1,0 +1,10 @@
+## << appends a value to the array
+## .size - determine size of array
+## .count - determine size of array
+## array[#] - to access specific element
+## .insert(#, element) - instert additional values
+## .include? - checks if element exists
+## array[#] = value -- will brute force replace a value
+## .delete "element" - remove an element from array
+## .delete_at # - remove element from specific number.
+## .pop - removes last element in array.

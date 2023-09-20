@@ -15,3 +15,32 @@ end
 ## .size - determine size of array
 ## .count - determine size of array
 ## array[#] - to access specific element
+## .insert(#, element) - instert additional values
+## .include? - checks if element exists
+## array[#] = value -- will brute force replace a value
+## .delete "element" - remove an element from array
+## .delete_at # - remove element from specific number.
+## .pop - removes last element in array.
+
+
+countries = ["India", "Brazil", "Somalia", "Japan", "China", "Niger", "Uganda",
+"Ireland"]
+
+puts countries[4]
+puts countries[2..4]
+
+countries.insert(1, "Poland")
+puts countries.join("\n")
+puts "" 
+
+puts countries.include? "Canada"
+countries[6] = "Canada"
+puts countries.join(" ")
+puts countries.include? "Canada"
+
+countries.delete "China"
+puts countries.join(",")
+
+
+puts countries.pop
+puts countries.join(",")
