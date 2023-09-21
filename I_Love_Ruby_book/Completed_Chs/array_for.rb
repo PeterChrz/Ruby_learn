@@ -21,7 +21,7 @@ end
 ## .delete "element" - remove an element from array
 ## .delete_at # - remove element from specific number.
 ## .pop - removes last element in array.
-
+## .push(#) - Adds element to end
 
 countries = ["India", "Brazil", "Somalia", "Japan", "China", "Niger", "Uganda",
 "Ireland"]
@@ -44,3 +44,5 @@ puts countries.join(",")
 
 puts countries.pop
 puts countries.join(",")
+
+## Typo on 6.2
